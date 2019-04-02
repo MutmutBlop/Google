@@ -1,0 +1,92 @@
+*
+{
+  font-family: 'Open Sans', sans-serif;
+}
+
+body
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+html
+{
+  width: 100%;
+  height: 100%;
+}
+
+.nav
+{
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+a
+{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 15px;
+  font-size: 13px;
+}
+a:hover
+{
+  text-decoration: underline;
+  color: #5F6368;
+}
+
+.section
+{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.champ
+{
+  border-radius: 20px;
+  margin: 15px;
+  width: 582px;
+  height: 37px;
+}
+.bouton
+{
+  margin: 8px;
+}
+
+.footer
+{
+
+}
+a
+{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.54);
+}
+a:hover
+{
+  text-decoration: underline;
+  color: #5F6368;
+}
+p
+{
+  font-size: 15px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.54);
+}
+.Text
+{
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  border-top: 0.5px solid grey;
+  padding: 5px 5px 0px 5px;
+}
+.France
+{
+  background-color: #f2f2f2;
+  border-top: 0.5px solid grey;
+  padding: 5px 5px 0px 5px;
+}
